@@ -1,0 +1,44 @@
+.games {
+  height: 100vh;
+  overflow-y: auto;
+  margin: 0 !important;
+}
+
+.col {
+  margin: 0 auto;
+  max-height: 20rem;
+  max-width: 18rem !important;
+}
+
+.card {
+  border: none !important;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+  background: #d2d2df;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a1a1a1;
+}
+
+.card-footer .badge {
+  margin: 0 0.7rem;
+}
+
+@media screen and (min-width: 576px) {
+  .games {
+    height: 100vh;
+  }
+
+  .col {
+    margin: 0;
+  }
+}

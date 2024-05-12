@@ -1,0 +1,87 @@
+body {
+  background-image: url(/assets/img/5405317.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #aaa;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #10141a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(38, 38, 63);
+  border-radius: 20px;
+}
+
+header {
+  padding: 50px;
+  background: #0a091a;
+  opacity: 0.6;
+}
+
+main {
+  background: #0a0b14;
+}
+
+header i {
+  margin-right: 1rem;
+}
+
+h1 {
+  font-family: "Jaini", system-ui;
+  font-size: 80px;
+  color: white;
+  background: linear-gradient(to right, #9f9f9f 0%, #06255c 50%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-control {
+  background-color: #212232;
+  border: 1px solid #3e3e3e;
+}
+
+.input-group-text {
+  background-color: #212232;
+  border: 1px solid #3e3e3e;
+  color: #989da1;
+}
+
+.form-select {
+  background-color: #212232;
+  border: 1px solid #3e3e3e;
+  color: #989da1;
+}
+
+#search {
+  background-color: #999999;
+  border: 1px solid #3e3e3e;
+  color: white;
+}
+
+footer {
+  background-color: #10141a;
+}
+
+.footer-icon a {
+  color: #9d9a9a;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.footer-icon a:hover {
+  color: #212232;
+}
